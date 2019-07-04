@@ -26,10 +26,141 @@
         </div>
 
         <div class="content">
+            <div class="content-body">
+                <div class="content-heading">
+                    About ICRTSE 2020
+                </div>
+                <div class="content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, perspiciatis accusamus aliquid repudiandae facere temporibus molestiae iusto quod dignissimos saepe sed fugit assumenda pariatur quam quas. Dolorum nesciunt dolores ex!
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum atque eaque non incidunt repellat. Recusandae, molestias eius aliquid eligendi impedit aut nobis repudiandae placeat id nihil minima quo, commodi minus!
+                </div>
+            </div>
+            <div class="content-body">
+                <div class="content-heading">
+                    About NSSCE
+                </div>
+                <div class="content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, perspiciatis accusamus aliquid repudiandae facere temporibus molestiae iusto quod dignissimos saepe sed fugit assumenda pariatur quam quas. Dolorum nesciunt dolores ex!
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum atque eaque non incidunt repellat. Recusandae, molestias eius aliquid eligendi impedit aut nobis repudiandae placeat id nihil minima quo, commodi minus!
+                </div>
+            </div>
+            <div class="content-body">
+                <div class="content-heading">
+                    Tourist Attractions in Palakkad
+                </div>
+                <div class="content-desc">
+                        <div class="slideshow-container">
+                                <% palakkad.forEach(function(o) { %>
+                                    <div class="mySlides fade">
+                                        <img src="/assets/img/<%= o.id %>.jpg" style="width:100%">
+                                        <div class="text"><%= o.name %></div>
+                                    </div>
+                                <% }); %>
+
+                            
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                        </div>
+                        <br>
+                                    
+                        <div style="text-align:center">
+                            <% palakkad.forEach(function(o) { %>
+                            <span class="dot" onclick="currentSlide(<%= o.id %>)"></span>
+                            <% }); %> 
+                        </div>
+                </div>
+            </div>
         </div>
 
         <div class="right-content">
+
+            <div class="notification">
+                <div class="header">
+                    Notifications
+                </div>
+                <marquee behavior = "scroll" direction = "up" scrollamount="3" height="300px">
+                    <% notification.forEach(function(o) { %>
+                        <div class="notification-body">
+                            <div class="ntitle"> <%= o.title %> <%if(o.new != ""){%><span class="blink"> <%= o.new %></span><%}%> </div>
+                            <div class="ncontent"> <%= o.content %> </div>
+                        </div>
+                    <% }); %>
+                </marquee>
+            </div>
+            
+            <br>
+
+            <div class="subchairs">
+                <div class="header">
+                    Sub Chairs
+                </div>
+                <div class="subchairs-body">
+                    <ul>
+                        <li><a href="/home">Computer Science and Engineering</a></li>
+                        <li><a href="/home">Mechanical Engineering</a></li>
+                        <li><a href="/home">Civil Engineering</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
         </div>
     </div>
+    <footer>
+            Copyright ©2019 NSS College of Engineering, Palakkad
+            <br>
+            Designed and Maintained by Allen K Abraham
+    </footer>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        automaticShow()
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+
+        function automaticShow() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none"; 
+            }
+
+            slideIndex++;
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            if (slideIndex > slides.length) {slideIndex = 1} 
+            slides[slideIndex-1].style.display = "block"; 
+            dots[slideIndex-1].className += " active";
+            setTimeout(automaticShow, 7000); // Change image every 7 seconds
+        }
+    </script>
 </body>
 </html>

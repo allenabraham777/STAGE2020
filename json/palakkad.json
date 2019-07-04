@@ -1,0 +1,32 @@
+[
+    {
+        "id" : "1",
+        "name" : "Malampuzha Gardens",
+        "description" : "Malampuzha has something to offer to every kind of visitor. There is a wonderful rose garden with 100 species of roses for you to savour, a snake park with a large variety of reptiles to send a chilly sensation down your body, a ropeway ride at a height of 60 feet to view the garden from above, a fancy park with as many as 20 ride options and a KTDC Garden House offering pedal boats, motor boats, row-boats and water scooters for a trip round the reservoir. If none of the above interests you, then you can simply have a look at the sculpture of the bare bodied Yakshi (demoness) with the head flung back and raised fisted hands positioned close to the ears. Malampuzha is an ideal picnic spot in every sense and is just 14 km from Palakkad."
+    },
+    {
+        "id" : "2",
+        "name" : "Silent Valley National Park",
+        "description" : "The Silent valley National Park is highly popular in the state of Kerala, it being one amongst those that are untouched by the passage of time. Its topographical seclusion ensures that the area remains uninhabited and continues to preserve the flora and fauna that house it. Visitors get permission to explore a limited area and overnight stay is discouraged.Special permission needs to be sought from the Wildlife Warden for this purpose. The park is located on the Kundali Hills of Western Ghats , 65 km north east of Palakkad."
+    },
+    {
+        "id" : "3",
+        "name" : "Nellliyampathy",
+        "description" : "54 kilometers south of Palakkad is Nellliyampathy, a hill station perched at a height of 4600 feet above sea level. The small town is perfect to soak in the magical beauty of hills, coffee, tea and orange plantations. On the way you can stop by the Pothundy Dam and relish in the beauty of the dam or go on a boating ride. At a distance of 8 kilometers from Nelliyampathy is the viewpoint of Seetharkundu. This place gives you an amazing views of the valleys and cities below. It is believed that Lord Rama, Sita and Laxmana, took a rest here during their exile. Another notable location of Nelliyampathy is the Kesavan Rock, the place where Mammootty starer Moreover, there are also opportunities to explore the dense forests and sight some exotic animals."
+    },
+    {
+        "id" : "4",
+        "name" : "Parambikulam Wildlife Sanctuary",
+        "description" : "The Parambikulam Wildlife Sanctuary, 47 kilometers from Palakkad is an excellent place to get a good sight of elephants, gaurs, chitals, sambhars, deer, Nilgiri langurs, wild dogs, leopards and not to forget, tigers. The park occupies an area of 277 sq km between Anamalai hills and Nellliyampathy at a height of 980 - 4600 feet. There are three dams, Parambikulam, Thunacadavu and Peruvaripallam, within the sanctuary where you can have the pleasure of boating amidst beauty. This place is under the consideration of UNESCO to make it a World Heritage Site. Other than the wildlife this sanctuary is also home to indigenous tribes of Kadar, Malasar, Muduvar and Mala Malasar. It is the people from these tribes who are employed as guides for treks and safaris."
+    },
+    {
+        "id" : "5",
+        "name" : "Tipus Fort",
+        "description" : "Unlike the other forts of the country, the Palakkad Fort, also known by the name of Tipus Fort was built to enhance communication between Palakkad and Coimbatore. The fort was originally constructed by Hyder Ali, Tipus father. However it fell into the hands of the British in 1784 and Zamorins in 1790. Today, the fort is under the protection and care of the ASI (Archaeological Survey of . The fort is not only worth visiting because of its historical importance, rather it has a pleasant ambience that encourages you to take a walk in the evenings. Moreover, the Children’s parks ensure that the place is full of cheerful and enthusiastic voices. There is also an auditorium and a small museum in the fort."
+    },
+    {
+        "id" : "6",
+        "name" : "Manapullikaavu",
+        "description" : "This is the second of the two most important Bhagavathi devi temples in Palakkad. The temple is believed to be 1200 years old. The idol here is swayambhu (self created) and is found on one side of the Sreekovil. The main idol of the temple was installed at a much later date. It is located on the Palghat - Chittur road and is very near the national highway. As per the legends Manapulli Bhagavathy is Bhadrakaali who was born out of Lord Shiva’s sacred Jada during the Dakshayaga. The goddess is believed to have killed Neelan, the Asura, after which she became Manapulli Bhagavathy, to bless her devotees. The Manapullikaavu Vela Festival is the main festival of the temple. This is celebrated during the last week of February or the first week of March. The temple is open between 6 to 10.30 am and 5 to 7 pm."
+    }
+]
