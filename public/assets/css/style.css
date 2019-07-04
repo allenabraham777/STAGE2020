@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    background: linear-gradient(#4F5D75,#ffffff);
+}
+
+.jumbotron{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    background-color: #ffffff;
+}
+
+.jumbotron .title{
+    color: #ffffff;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/title.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size:30px;
+}
+.top-title{
+    position: relative;
+    z-index: 200;
+    width: 75%;
+    padding : 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-title a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.content{
+    position: relative;
+    height: 300px;
+    width: 75%;
+    background-color: #000000;
+    float: left;
+}
+
+.right-content{
+    position: relative;
+    height: 300px;
+    width: 25%;
+    background-color: #ffffff;
+    float: right;
+}
