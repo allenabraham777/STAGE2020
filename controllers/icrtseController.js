@@ -39,7 +39,7 @@ module.exports = function (app){
         res.render('construction');
     });
     app.get('/contact', function(req, res){
-        res.render('construction');
+        res.render('contact');
     });
     
 
