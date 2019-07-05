@@ -4,6 +4,7 @@
   "description": "Website project for International Conference on Recent Trends in Science and Engineering, hosted by NSS College of Engineering, Palakkad, Kerala, India. The website project is undertaken by Department of Computer Science and Engineering and Department of Electronics and Communication Engineering, the website is developed by Allen K Abraham, Final Year Student Computer Sceince and Engineering. The project is initiated on 4th of July 2019",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,5 +30,5 @@
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "mongoose": "^5.6.3"
-  }
+  },
 }
