@@ -36,9 +36,16 @@ module.exports = function (app){
         res.render('schedule');
     });
 
+    app.get('/call_for_paper', function(req, res){
+        res.render('construction');
+    });
+    app.get('/contact', function(req, res){
+        res.render('construction');
+    });
+    
+
     app.get('*', function(req, res){
         res.render('404', {palakkad : palakkad, notification : notification});
     });
-
     
 }
