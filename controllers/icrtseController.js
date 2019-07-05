@@ -13,6 +13,10 @@ module.exports = function (app){
         res.render('home', {palakkad : palakkad, notification : notification});
     });
 
+    app.get('/', function(req, res){
+        res.redirect('icrtse2020')
+    });
+
     app.get('/home', function(req, res){
         res.redirect('icrtse2020')
     });
