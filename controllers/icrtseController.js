@@ -5,7 +5,6 @@ var rawdata = fs.readFileSync('json/palakkad.json');
 var palakkad = JSON.parse(rawdata);  
 var rawdata = fs.readFileSync('json/notifications.json');
 var notification = JSON.parse(rawdata);
-console.log(notification);  
 
 module.exports = function (app){    
 
@@ -26,7 +25,8 @@ module.exports = function (app){
     });
 
     app.get('/subchair', function(req, res){
-        res.render('construction');
+        console.log(req.query);
+        res.render('subchair', {query : req.query.dep});
     });
 
     app.get('*', function(req, res){
