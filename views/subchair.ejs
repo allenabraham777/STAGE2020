@@ -18,21 +18,28 @@
     <div class="jumbotron">
         <% include partials/topbar.ejs %>
        
-        <% if(query=="cs"){%>
-            <%-include partials/cs.ejs %>
-        <%}else%>
-            <% if(query=="me"){%>
-                <%-include partials/me.ejs %>
+        <div class="content">
+            <% if(query=="cs"){%>
+                <%-include partials/cs.ejs %>
             <%}else%>
-                <% if(query=="ec"){%>
-                    <%-include partials/ec.ejs %>
+                <% if(query=="me"){%>
+                    <%-include partials/me.ejs %>
                 <%}else%>
-                    <% if(query=="ee"){%>
-                        <%-include partials/ee.ejs %>
+                    <% if(query=="ec"){%>
+                        <%-include partials/ec.ejs %>
                     <%}else%>
-                        <% if(query=="ce"){%>
-                            <%-include partials/ce.ejs %>
+                        <% if(query=="ee"){%>
+                            <%-include partials/ee.ejs %>
                         <%}else%>
+                            <% if(query=="ce"){%>
+                                <%-include partials/ce.ejs %>
+                            <%}%>
+        </div>
+        <div class="right-content">
+            <%-include partials/subchairs.ejs%>
+        </div>
+        
     </div>
+    <%-include partials/footer.ejs %>
 </body>
 </html>

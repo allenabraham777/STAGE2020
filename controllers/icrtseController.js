@@ -29,6 +29,10 @@ module.exports = function (app){
         res.render('subchair', {query : req.query.dep});
     });
 
+    app.get('/committee', function(req, res){
+        res.render('committee');
+    });
+
     app.get('*', function(req, res){
         res.render('404', {palakkad : palakkad, notification : notification});
     });
