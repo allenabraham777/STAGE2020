@@ -32,6 +32,9 @@ module.exports = function (app){
     app.get('/committee', function(req, res){
         res.render('committee');
     });
+    app.get('/schedule', function(req, res){
+        res.render('schedule');
+    });
 
     app.get('*', function(req, res){
         res.render('404', {palakkad : palakkad, notification : notification});
