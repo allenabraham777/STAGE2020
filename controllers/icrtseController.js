@@ -25,7 +25,6 @@ module.exports = function (app){
     });
 
     app.get('/subchair', function(req, res){
-        console.log(req.query);
         res.render('subchair', {query : req.query.dep});
     });
 
