@@ -1,0 +1,14 @@
+<div class="notification">
+    <div class="header">
+        Notifications
+    </div>
+    <marquee behavior = "scroll" direction = "up" scrollamount="3" height="300px">
+        <% notification.forEach(function(o) { %>
+            <div class="notification-body">
+                <div class="ntitle"> <%= o.title %> <%if(o.new != ""){%><span class="blink"> <%= o.new %></span><%}%> </div>
+                <div class="ncontent"> <%= o.content %> </div>
+            </div>
+        <% }); %>
+    </marquee>
+</div>
+<br>

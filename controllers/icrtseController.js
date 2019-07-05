@@ -25,6 +25,10 @@ module.exports = function (app){
         res.redirect('icrtse2020')
     });
 
+    app.get('/subchair', function(req, res){
+        res.render('construction');
+    });
+
     app.get('*', function(req, res){
         res.render('404', {palakkad : palakkad, notification : notification});
     });
