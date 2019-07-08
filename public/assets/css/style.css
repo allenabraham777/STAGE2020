@@ -1,13 +1,13 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 body{
-    min-height: 100vh;
     background-position: center;
     background-size: contain;
+    background: linear-gradient(#90AAAF,#ffffff);
     background-attachment: fixed;
-    background: linear-gradient(#4F5D75,#ffffff);
 }
 
 .jumbotron{
@@ -17,6 +17,9 @@ body{
     width: 75%;
     background-color: #ffffff;
     overflow: auto;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    overflow: hidden;
 }
 
 .jumbotron .title{
@@ -51,17 +54,20 @@ footer
     width: 75%;
     position: relative;
     text-align: center;
-    background-color: #888888;
+    background-color: #53909E;
+    color : #ffffff;
+    line-height: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .content{
     margin-top: 10px;
-    border-top: dashed 1px #999999;
-    border-left: dashed 1px #999999;
-    border-right: dashed 1px #999999;
-    background-color: #dddddd;
+    box-shadow: 2px 2px 10px #333333;
+    margin-left: 0.5%;
+    border-radius: 10px;
+    border: dashed 1px #999999;
+    background-color: rgba(177, 217, 226, 0.479);
     position: relative;
     width: 73%;
     float: left;
@@ -71,6 +77,11 @@ footer
     border-bottom: dashed 1px #000000;
     padding: 20px;
 }
+
+.content-body:last-of-type{
+    border-bottom: none;
+}
+
 .content-heading{
     text-align: center;
     font-size: 25px;
@@ -78,10 +89,36 @@ footer
     text-decoration: underline;
 }
 .content-desc{
+    font-size: 15px;
     padding: 50px 20px 20px 20px;
+    overflow: auto;
+}
+
+.content-desc-col{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    float: left;
+}
+
+
+.content-desc-col h1{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content-desc-col ul{
+    padding-top : 35px;
+    list-style: none;
+}
+
+.content-desc-col ul li{
+    line-height: 25px;
 }
 
 .right-content{
+    border-radius: 10px;
+    margin-right: 0.5%;
     margin-top: 10px;
     border: dashed 1px #999999;
     position: relative;
@@ -93,20 +130,24 @@ footer
 }
 
 .notification, .subchairs{
+    box-shadow: 2px 2px 10px #777777;
+    border-radius: 8px;
     overflow: hidden;
     margin-left: 3%;
     margin-right: 3%;
-    background-color: #bbbbbb;
+    background-color: #eeeeee;
 }
 
 .notification{
+    font-size: 15px;
     height: 300px;
 }
 
 .notification .header, .subchairs .header{
-    background-color: #000000;
+    background-color: #53909E;
     color: #ffffff;
     padding: 5px;
+    font-size:17px;
     text-align: center;
 }
 
@@ -133,6 +174,8 @@ footer
 
 .subchairs .subchairs-body ul li a{
     text-decoration: none;
+    color : #000000;
+    font-size: 13px;
 }
 
 
@@ -163,7 +206,7 @@ footer
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #258EA6;
 }
   
 .li {
@@ -180,7 +223,7 @@ footer
   
   /* Change the link color to #111 (black) on hover */
 .li a:hover, .dropdown:hover .dropbtn {
-    background-color: #111;
+    background-color: #53909E;
 }
 
 .li.dropdown {
