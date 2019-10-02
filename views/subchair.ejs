@@ -19,7 +19,7 @@
     </div>
     <div class="jumbotron">
         <% include partials/topbar.ejs %>
-       
+
         <div class="content">
             <% if(query=="cs"){%>
                 <%-include partials/cs.ejs %>
@@ -35,12 +35,15 @@
                         <%}else%>
                             <% if(query=="ce"){%>
                                 <%-include partials/ce.ejs %>
-                            <%}%>
+                            <%}else%>
+                                <% if(query=="ic"){%>
+                                    <%-include partials/ic.ejs %>
+                                <%}%>
         </div>
         <div class="right-content">
             <%-include partials/subchairs.ejs%>
         </div>
-        
+
     </div>
     <%-include partials/footer.ejs %>
 </body>

@@ -122,7 +122,11 @@ footer a{
 
 .content-desc-col ul{
     padding-top : 35px;
-    list-style:circle;
+    list-style: circle;
+}
+
+.keynote-image{
+  width: 150px;
 }
 
 .content-desc-col ul li{
