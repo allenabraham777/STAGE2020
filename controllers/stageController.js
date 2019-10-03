@@ -8,20 +8,20 @@ var notification = JSON.parse(rawdata);
 
 module.exports = function (app){
 
-    app.get('/icrtse2020', function(req, res){
+    app.get('/stage2020', function(req, res){
         res.render('home', {palakkad : palakkad, notification : notification});
     });
 
     app.get('/', function(req, res){
-        res.redirect('icrtse2020')
+        res.redirect('stage2020')
     });
 
     app.get('/home', function(req, res){
-        res.redirect('icrtse2020')
+        res.redirect('stage2020')
     });
 
     app.get('/index', function(req, res){
-        res.redirect('icrtse2020')
+        res.redirect('stage2020')
     });
 
     app.get('/subchair', function(req, res){
@@ -39,7 +39,7 @@ module.exports = function (app){
     });
 
     app.get('/call_for_paper', function(req, res){
-        res.render('construction');
+        res.render('paperCall');
     });
     app.get('/contact', function(req, res){
         res.render('contact');

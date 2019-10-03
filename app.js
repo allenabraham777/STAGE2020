@@ -1,5 +1,5 @@
 var express = require("express");
-var icrtseContrller = require('./controllers/icrtseController')
+var icrtseContrller = require('./controllers/stageController')
 var app = express();
 
 // sets port 8080 to default or unless otherwise specified in the environment

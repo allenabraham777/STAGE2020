@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ICRTSE2020</title>
+    <title>STAGE2020</title>
     <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -12,19 +12,19 @@
 <body>
     <div class="top-title">
         |&nbsp;
-        <a href="/">ICRTSE 2020</a>
+        <a href="/">STAGE 2020</a>
         &nbsp;|&nbsp;
         <a href="https://nssce.ac.in">NSSCE</a>
         &nbsp;|
     </div>
     <div class="jumbotron">
-        
+
         <% include partials/topbar.ejs %>
 
         <div class="content">
             <div class="content-body">
                 <div class="content-heading">
-                    About ICRTSE 2020
+                    About STAGE 2020
                 </div>
                 <div class="content-desc">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, perspiciatis accusamus aliquid repudiandae facere temporibus molestiae iusto quod dignissimos saepe sed fugit assumenda pariatur quam quas. Dolorum nesciunt dolores ex!
@@ -53,17 +53,17 @@
                                     </div>
                                 <% }); %>
 
-                            
+
                             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                                
+
                         </div>
                         <br>
-                                    
+
                         <div style="text-align:center">
                             <% palakkad.forEach(function(o) { %>
                             <span class="dot" onclick="currentSlide(<%= o.id %>)"></span>
-                            <% }); %> 
+                            <% }); %>
                         </div>
                 </div>
             </div>

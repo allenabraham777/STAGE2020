@@ -2,19 +2,19 @@
     {
         "new" : "New",
         "date" : "05 Jun",
-        "title" : "Title 1",
-        "content" : "Lorem ipsum Lorem ipsum"        
+        "title" : "Date of abstract submission",
+        "content" : "Last Date of abstract submission - 10th October 2019"
     },
     {
         "new" : "New",
         "date" : "05 Jun",
-        "title" : "Title 2",
-        "content" : "Lorem ipsum Lorem ipsum"        
+        "title" : "Notification of acceptance",
+        "content" : "Date of Notification of acceptance - 15th November 2019"
     },
     {
         "new" : "",
         "date" : "04 Jun",
-        "title" : "Title 3",
-        "content" : "Lorem ipsum Lorem ipsum"        
+        "title" : "Last Date of full paper submission",
+        "content" : "Last Date of full paper submission - 10th December 2019"
     }
 ]
