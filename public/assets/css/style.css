@@ -27,8 +27,8 @@ body{
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/title.jpg);
     background-position: center;
     background-size: cover;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     text-align: center;
     font-family: 'Cabin', sans-serif;
     font-size:30px;
@@ -120,9 +120,13 @@ footer a{
 .content-desc-col:nth-child(even) {
   margin-left: 40px;
 }
-
+.content-desc-col h3{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
 .content-desc-col h1{
-  text-align: center;;
+    text-align: center;
     font-weight: bold;
     font-size: 18px;
 }

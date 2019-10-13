@@ -1,20 +1,20 @@
 [
     {
         "new" : "New",
-        "date" : "05 Jun",
+        "date" : "",
         "title" : "Date of abstract submission",
-        "content" : "Last Date of abstract submission - 10th October 2019"
+        "content" : "Last Date of abstract submission - 20 November 2019"
     },
     {
         "new" : "New",
-        "date" : "05 Jun",
-        "title" : "Notification of acceptance",
-        "content" : "Date of Notification of acceptance - 15th November 2019"
+        "date" : "",
+        "title" : "Last Date of full paper submission",
+        "content" : "Last Date of full paper submission - 25 January 2020"
     },
     {
-        "new" : "",
-        "date" : "04 Jun",
-        "title" : "Last Date of full paper submission",
-        "content" : "Last Date of full paper submission - 10th December 2019"
+        "new" : "New",
+        "date" : "",
+        "title" : "Notification of acceptance",
+        "content" : "Date of Notification of acceptance - 25 May 2020"
     }
 ]
