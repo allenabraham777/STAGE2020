@@ -136,6 +136,24 @@ footer a{
     list-style: circle;
 }
 
+.button{
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    font-size: 14px;
+    background: #53909E;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #75909E;
+}
+
 .keynote-image{
   width: 150px;
 }
@@ -250,7 +268,7 @@ footer a{
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 10px;
     text-decoration: none;
 }
 

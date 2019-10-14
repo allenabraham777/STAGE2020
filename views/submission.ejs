@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Committee</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <div class="top-title">
+        |&nbsp;
+        <a href="/">STAGE 2020</a>
+        &nbsp;|&nbsp;
+        <a href="https://nssce.ac.in">NSSCE</a>
+        &nbsp;|
+    </div>
+    <div class="jumbotron">
+        <% include partials/topbar.ejs %>
+        <div class="content">
+            <div class="content-body">
+                <div class="content-heading">
+                    Submission Guidelines
+                </div>
+                <div class="content-desc">
+                    Submission has to be made through EasyChair using the following link.
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://easychair.org/conferences/?conf=stage2020" class="button">Submission Link</a>
+                </div>
+            </div>
+            <div class="content-body">
+                <div class="content-desc">
+                    All accepted papers will be published in SCOPUS indexed publications/ UGC recogonised journals/ Conference proceedings
+                    based on the reviewer recommendation. Maximum number of pages is limited to 7 pages.
+                </div>
+            </div>
+        </div>
+
+        <div class="right-content">
+            <% include partials/subchairs.ejs%>
+        </div>
+    </div>
+    <% include partials/footer.ejs %>
+</body>
+</html>

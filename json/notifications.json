@@ -3,18 +3,21 @@
         "new" : "New",
         "date" : "",
         "title" : "Date of abstract submission",
-        "content" : "Last Date of abstract submission - 20 November 2019"
+        "content" : "Last Date of abstract submission - 15 November 2019",
+        "link" : "/schedule"
     },
     {
         "new" : "New",
         "date" : "",
         "title" : "Last Date of full paper submission",
-        "content" : "Last Date of full paper submission - 25 January 2020"
+        "content" : "Last Date of full paper submission - 20 January 2020",
+        "link" : "/schedule"
     },
     {
         "new" : "New",
         "date" : "",
         "title" : "Notification of acceptance",
-        "content" : "Date of Notification of acceptance - 25 May 2020"
+        "content" : "Date of Notification of acceptance - 25 May 2020",
+        "link" : "/schedule"
     }
 ]

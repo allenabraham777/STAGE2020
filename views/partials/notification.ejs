@@ -5,8 +5,10 @@
     <marquee behavior = "scroll" direction = "up" scrollamount="3" height="300px">
         <% notification.forEach(function(o) { %>
             <div class="notification-body">
+                <a style="text-decoration: none;" href="<%= o.link %>">
                 <div class="ntitle"> <%= o.title %> <%if(o.new != ""){%><br><span class="blink"> <%= o.new %></span><%}%> </div>
                 <div class="ncontent"> <%= o.content %> </div>
+                </a>
             </div>
         <% }); %>
     </marquee>

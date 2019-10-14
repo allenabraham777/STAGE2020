@@ -44,6 +44,12 @@ module.exports = function (app){
     app.get('/contact', function(req, res){
         res.render('contact');
     });
+    app.get('/submission', function(req, res){
+        res.render('submission');
+    });
+    app.get('/registration', function(req, res){
+        res.render('registration');
+    });
 
 
     app.get('*', function(req, res){
