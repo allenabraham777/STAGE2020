@@ -109,7 +109,7 @@ footer a{
 }
 
 .content-desc-col{
-    padding-right: 40px;
+    max-width:40%;
     margin-bottom: 20px;
     margin-top: 10px;
     float: left;
