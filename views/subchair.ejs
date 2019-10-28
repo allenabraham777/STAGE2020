@@ -38,7 +38,10 @@
                             <%}else%>
                                 <% if(query=="ic"){%>
                                     <%-include partials/ic.ejs %>
-                                <%}%>
+                                <%}else%>
+                                    <% if(query=="sc"){%>
+                                        <%-include partials/sc.ejs %>
+                                    <%}%>
         </div>
         <div class="right-content">
             <%-include partials/subchairs.ejs%>
