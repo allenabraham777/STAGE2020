@@ -38,6 +38,10 @@ module.exports = function (app){
         res.render('keynote');
     });
 
+    app.get('/launch', function(req, res){
+        res.render('launch');
+    });
+
     app.get('/call_for_paper', function(req, res){
         res.render('paperCall');
     });
