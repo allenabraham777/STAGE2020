@@ -24,7 +24,7 @@
         <div class="content">
             <div class="content-body">
                 <div class="content-heading">
-                    About STAGE 2020
+                    STAGE 2020
                 </div>
                 <div class="content-desc">
                     The International Conference on Sustainable Technology Applications for
@@ -34,7 +34,7 @@
                     sustainable means. Keynote addresses will be given by experts from both
                     academics and industry. The conference has diverse themes that cover
                     diverse engineering areas, but all converges to the central idea of green
-                    engineering solutions.. The conference is supported by professional bodies
+                    engineering solutions. The conference is supported by professional bodies
                     like ISTE,IET and industries belonging to diverse engineering streams.
 
                     <br><br><br>
@@ -73,7 +73,7 @@
                         <div class="slideshow-container">
                                 <% palakkad.forEach(function(o) { %>
                                     <div class="mySlides fade">
-                                        <img src="/assets/img/<%= o.id %>.jpg" style="width:100%">
+                                        <img onclick="location.href = '<%= o.location %>'" src="/assets/img/<%= o.id %>.jpg" style="width:100%">
                                         <div class="text"><%= o.name %></div>
                                     </div>
                                 <% }); %>

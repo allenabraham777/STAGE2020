@@ -6,7 +6,8 @@
 body{
     background-position: center;
     background-size: contain;
-    background: linear-gradient(#90AAAF,#ffffff);
+    background: linear-gradient(#a5ed8a,#ffffff);
+    /*#90AAAF*/
     background-attachment: fixed;
 }
 
@@ -24,7 +25,10 @@ body{
 
 .jumbotron .title{
     color: #ffffff;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/title.jpg);
+/*    background: linear-gradient(rgba(89, 169, 106,0.8),rgba(89, 169, 106,0.8)),url(../img/title.jpg);
+background: linear-gradient(rgba(16, 83, 51,0.9),rgba(16, 83, 51,0.9)),url(../img/greenengg.png);
+*/
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/greenengg.png),url(../img/sky.jpeg);
     background-position: center;
     background-size: cover;
     padding-top: 80px;
@@ -32,6 +36,21 @@ body{
     text-align: center;
     font-family: 'Cabin', sans-serif;
     font-size:30px;
+}
+.jumbotron .title .heading{
+    width: 60%;
+    display: inline-block;
+}
+.jumbotron .title .logo{
+    position: relative;
+    display: inline-block;
+    width: 10%
+}
+.jumbotron .title .logo img{
+    position: absolute;
+    width: 200px;
+    left:0;
+    transform: translate(-30%,-100%);
 }
 .top-title{
     position: relative;
@@ -58,7 +77,8 @@ footer
     width: 75%;
     position: relative;
     text-align: center;
-    background-color: #53909E;
+    background-color: rgb(89, 169, 106);
+    /*#53909E;*/
     color : #ffffff;
     line-height: 25px;
     padding-top: 20px;
@@ -76,7 +96,8 @@ footer a{
     margin-left: 0.5%;
     border-radius: 10px;
     border: dashed 1px #999999;
-    background-color: rgba(177, 217, 226, 0.479);
+    background-color: rgba(165, 237, 138, 0.479);
+    /*background-color: rgba(177, 217, 226, 0.479);*/
     position: relative;
     width: 73%;
     float: left;
@@ -89,7 +110,7 @@ footer a{
 }
 
 .content-body:hover{
-    background-color: rgba(177, 217, 226, 0.8);
+    background-color: rgba(165, 237, 138, 0.5);
 }
 
 .content-body:last-of-type{
@@ -141,7 +162,8 @@ footer a{
     position: relative;
     padding: 10px;
     font-size: 14px;
-    background: #53909E;
+    background: rgb(89, 169, 106);
+    /*#53909E;*/
     color: #ffffff;
     outline: none;
     border: none;
@@ -190,7 +212,8 @@ footer a{
 }
 
 .notification .header, .subchairs .header{
-    background-color: #53909E;
+    background-color: rgb(89, 169, 106);
+    /*#53909E;*/
     color: #ffffff;
     padding: 5px;
     font-size:17px;
@@ -257,7 +280,8 @@ footer a{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #258EA6;
+    background-color: rgb(89, 169, 106);
+/*    background-color: #258EA6;*/
 }
 
 .li {
@@ -274,7 +298,8 @@ footer a{
 
   /* Change the link color to #111 (black) on hover */
 .li a:hover, .dropdown:hover .dropbtn {
-    background-color: #53909E;
+    background-color:rgb(89, 169, 106);
+    /*#53909E;*/
 }
 
 .li.dropdown {
