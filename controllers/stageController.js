@@ -51,9 +51,9 @@ module.exports = function (app){
     app.get('/submission', function(req, res){
         res.render('submission');
     });
-    /*app.get('/registration', function(req, res){
+    app.get('/registration', function(req, res){
         res.render('registration');
-    });*/
+    });
 
 
     app.get('*', function(req, res){
