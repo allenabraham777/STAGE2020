@@ -1,17 +1,23 @@
 [
-    
     {
-        "new" : "New",
+        "new" : "",
         "date" : "",
-        "title" : "Last Date of full paper submission extended",
-        "content" : "In view of the COVID threat, last date of submission of papers extended to 25th June 2020, acceptance of new papers will be informed by 3rd July 2020",
-        "link" : "/schedule"
+        "title" : "Congratulations to all the winners.",
+        "content" : "",
+        "link" : "/winners"
     },
     {
-        "new" : "New",
+        "new" : "",
         "date" : "",
-        "title" : "Cash prize for best papers",
-        "content" : "There will be cash prizes and certificates for best two papers",
-        "link" : "/"
+        "title" : "First Prize",
+        "content" : "The paper titled SPATIO-TEMPORAL FLUVIAL MORPHOLOGICAL CHANGES IN KARUVANNUR RIVER authored by Ms Anupriya A and Prof Reeba Thomas,Govt Engineering College Thrissur",
+        "link" : "/winners"
+    },
+    {
+        "new" : "",
+        "date" : "",
+        "title" : "Second Prize",
+        "content" : "The paper titled DESIGN AND ANALYSIS OF A NOVEL DRYING CHAMBER IN INDIERCT FORCED CONVECTION SOLAR DRYING authored by Sabareesh Vijayakumar, Milan K John, Prof C Muraleedharan and Prof B Rohinikumar, National Institute of Technology Calicut. ",
+        "link" : "/winners"
     }
 ]

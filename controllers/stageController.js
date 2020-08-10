@@ -20,6 +20,10 @@ module.exports = function (app){
         res.redirect('stage2020')
     });
 
+    app.get('/winners', function(req, res){
+        res.render('winners');
+    });
+
     app.get('/index', function(req, res){
         res.redirect('stage2020')
     });
